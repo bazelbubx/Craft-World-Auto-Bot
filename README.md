@@ -80,21 +80,21 @@ You need to obtain three types of IDs: Mine ID, Factory ID, and Area ID.
    - Click on the request and check the **Request Payload**
    - Look for `"actionType": "START_MINE"` and copy the `mineId` value
    
-   ![Mine ID Location](https://github.com/vikitoshi/Craft-World-Auto-Bot/blob/main/1.PNG?raw=true)
+   ![Mine ID Location](https://github.com/bazelbubx/Craft-World-Auto-Bot/blob/main/1.PNG?raw=true)
    
 4. **Get Factory ID**
    - Click on any factory in the game to start production
    - In the Network tab, find the request with `"actionType": "START_FACTORY"`
    - Copy the `factoryId` value from the payload
    
-   ![Factory ID Location](https://github.com/vikitoshi/Craft-World-Auto-Bot/blob/main/2.PNG?raw=true)
+   ![Factory ID Location](https://github.com/bazelbubx/Craft-World-Auto-Bot/blob/main/2.PNG?raw=true)
 
 5. **Get Area ID**
    - Click on any area to claim it
    - Look for requests with `"actionType": "CLAIM_AREA"`
    - Copy the `areaId` value from the payload
    
-   ![Area ID Location](https://github.com/vikitoshi/Craft-World-Auto-Bot/blob/main/3.PNG?raw=true)
+   ![Area ID Location](https://github.com/bazelbubx/Craft-World-Auto-Bot/blob/main/3.PNG?raw=true)
 
 ### Example Network Request:
 ```json
